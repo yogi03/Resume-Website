@@ -1,0 +1,159 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+#navigation {
+    background-color: #EAF6F6;
+}
+
+.top_container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle_container {
+    margin: 100px 0 100px 0;
+}
+
+.Profile_img {
+    height: 150px;
+    width: 150px;
+}
+
+h1 {
+    /*Writing font size in %age makes font sizing dynamic w.r.t. web user i.e., if user increases or decreases font size 
+    on his system all font will be adjusted accordingly*/
+    font-size: 562.5%;
+    /* font size 100% == 16px so 1px == 100%/16 that is 90px == 100*90%/16 == 562.5%
+    100% == 16px == 1em*/
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    /*line-height: 2;*/
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+p {
+    line-height: 2;
+}
+
+.web {
+    text-decoration: underline;
+}
+
+.bottom_cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.top_cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.LinkedIn {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    right: 65px;
+}
+
+.Instagram {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 95px;
+}
+
+.Telegram {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    right: 35px;
+}
+
+.skill_row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.Skill {
+    float: left;
+    margin-right: 30px;
+}
+
+.styling {
+    color: #40514E;
+    font-weight: bold;
+    margin: 40px auto 60px;
+}
+
+.Python {
+    float: right;
+    margin-left: 30px;
+}
+
+.bottom_container {
+    background-color: #66BFBF;
+    padding: 20px 0 20px 0;
+}
+
+hr {
+    border-style: dotted none none;
+    border-width: 7px;
+    border-radius: 0%;
+    border-color: #EAF6F6;
+    margin: 100px auto 100px auto;
+    width: 4%;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0 0 0;
+}
